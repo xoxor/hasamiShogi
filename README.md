@@ -24,16 +24,16 @@ java -jar hasamiShogi.jar OPTIONS
 
 The options are:
 
-\-tm		(--threshold_move)		->	maximum number of complete moves (i.e. 1 black move + 1 white move). 
-										**Default value:** no threshold. 
-\-tt		(--threshold_time)		->	maximum time for a player to move (milliseconds).
-										**Default value:** 1000ms.
-\-wt		(--waiting_time)		->	sleeping time for the automatic players before moving (milliseconds).
-										**Default value:** 60ms.
-\-p1		(--algorithm_player1)	->	searching strategy for the black player (see below for options).
-										**Default value:** 1.
-\-p2		(--algorithm_player2)	->	searching strategy for the white player (see below for options).
-										**Default value:** 2.
+\-tm		(--threshold_move)		->	maximum number of complete moves (i.e. 1 black move + 1 white move).\ 
+										**Default value:** no threshold.\ 
+\-tt		(--threshold_time)		->	maximum time for a player to move (milliseconds).\
+										**Default value:** 1000ms.\
+\-wt		(--waiting_time)		->	sleeping time for the automatic players before moving (milliseconds).\
+										**Default value:** 60ms.\
+\-p1		(--algorithm_player1)	->	searching strategy for the black player (see below for options).\
+										**Default value:** 1.\
+\-p2		(--algorithm_player2)	->	searching strategy for the white player (see below for options).\
+										**Default value:** 2.\
 
 *Strategy options:*
 - 0		Human player;
@@ -46,7 +46,7 @@ The options are:
 
 Please note that the automatic player was presented to a competition with the final strategy **IDAlphaBetaSearch_BestMove** since it was the one presenting the best performances. Others strategies were implemented for training and testing purpose.
 
-##Examples:
+## Examples:
 
 **java -jar hasamiShogi.jar**
 
