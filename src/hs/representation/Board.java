@@ -148,7 +148,9 @@ public abstract class Board {
 	}
 
 	public void move(int fromR, int fromC, int toR, int toC) {
-
+		if(!isMoveLegal(fromR, fromC, toR, toC)) {
+			throw new IllegalMoveException();
+		}	
 		MoveInfo info = new MoveInfo();
 		info.turn = turn;
 		info.fromR = fromR;
